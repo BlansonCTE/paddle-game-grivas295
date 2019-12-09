@@ -8,7 +8,8 @@ import javax.swing.JPanel;
 @SuppressWarnings("serial")
 public class Game extends JPanel{
     Ball ball = new Ball(this);
-
+    Paddle paddle = new Paddle(this);
+    
     @Override
     public void paint(Graphics g){
         // this clears the screen before reprinting circe at new position
