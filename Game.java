@@ -13,7 +13,6 @@ import javax.swing.JPanel;
 public class Game extends JPanel {
 	Ball ball = new Ball(this);
 	Paddle paddle = new Paddle(this);
-	Paddle paddle2 = new Paddle(this);
 	int speed = 1;
 
 	public Game() {
